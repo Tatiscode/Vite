@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container-aside{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-top: 20px;
+  position: absolute;
+  top: 60%;
+  left: 23%;
+  transform: translate(-50%, -10%);
+}
+
+.container-img{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 15px;
+ }
+
+ .inspiration{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 18rem;
+ }
