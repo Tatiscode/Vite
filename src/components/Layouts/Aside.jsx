@@ -14,7 +14,7 @@ export const Aside = () => {
       <div className="container-aside">
         <TitleTwo/>
         <Phrase/>
-        <ButtonShop/>
+        <ButtonShop style="btn-2"/>
       </div>
     </div>
 

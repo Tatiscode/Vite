@@ -43,6 +43,10 @@ ul{
 }
 
 img{
-   overflow: hidden;
-    background-size: cover;
+ opacity: 0.9;
+ height: 80vh;
+ background-size: cover;
+ background-position: bottom;
+ background-repeat: no-repeat;
+ width: 100vw;
 }

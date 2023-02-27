@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const ButtonShop = () => {
+export const ButtonShop = ({style, textButton = "shop now"}) => {
   return (
-    <button>shop now</button>
+    <button className={style}>{textButton}</button>
   )
 }
