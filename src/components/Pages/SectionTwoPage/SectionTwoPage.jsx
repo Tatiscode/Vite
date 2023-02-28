@@ -1,6 +1,7 @@
 import React from 'react'
 import { Phrase } from '../../UI/Phrase/Phrase'
 import { TitleTwo } from '../../UI/TitleTwo/TitleTwo'
+import './sectionTwoPage.css'
 
  export function SectionTwoPage() {
   return (
