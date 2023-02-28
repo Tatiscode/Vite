@@ -9,5 +9,20 @@
  }
  
 .img-product{
-   width: 20rem;
+   width: 10rem;
+   height: auto;
 }
+
+.box-product{
+    background-image: url(https://res.cloudinary.com/dgpikgt5t/image/upload/v1677359961/KJC_HOLIDAY_WOZ_22_Transformative_Lip_Tint_ProductandPack_V3_na9wmj.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-product{
+    color: black;
+    font-size: 20px;
+}
+

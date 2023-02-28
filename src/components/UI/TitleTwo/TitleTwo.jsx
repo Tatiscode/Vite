@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const TitleTwo = () => {
+export const TitleTwo = ({style, textTitle}) => {
   return (
-  <h2>
-    THE PERFECT LIP
-  </h2>
+  <h2 className={style}>{textTitle}</h2>
   )
 }
+
+
+

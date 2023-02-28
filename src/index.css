@@ -68,10 +68,9 @@ button:focus-visible {
   }
 } */
 .btn-1 {
-  background-color: #e10b0bd3;
-  width: 15rem;
+  background-color: palevioletred;
 }
 
 .btn-2 {
-  background-color: #19e112;
+  background-color: purple;
 }

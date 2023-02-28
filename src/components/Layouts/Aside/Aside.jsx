@@ -1,8 +1,8 @@
 import React from 'react'
-import { ButtonShop } from '../UI/ButtonShop/ButtonShop'
-import { ImagenBackground } from '../UI/ImagenBackground/ImagenBackground'
-import { Phrase } from '../UI/Phrase/Phrase'
-import { TitleTwo } from '../UI/TitleTwo/TitleTwo'
+import { ButtonShop } from '../../UI/ButtonShop/ButtonShop'
+import { ImagenBackground } from '../../UI/ImagenBackground/ImagenBackground'
+import { Phrase } from '../../UI/Phrase/Phrase'
+import { TitleTwo } from '../../UI/TitleTwo/TitleTwo'
 
 export const Aside = () => {
   return (
