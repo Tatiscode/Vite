@@ -1,7 +1,8 @@
 import React from 'react'
+import AsideTwo from '../../Layouts/AsideTwo/AsideTwo'
 import "./asideTwoPage.css"
 
-function AsideTwoAsideTwoPage() {
+function AsideTwoPage() {
   return (
     <AsideTwo/>
   )

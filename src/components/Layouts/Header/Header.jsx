@@ -6,16 +6,13 @@ import { Welcome } from '../../UI/Welcome/Welcome'
 
 export const Header = () => {
   return (
-
     <div className="box-container">
       <Welcome/>
-
     <div className="container-header">
       <Navegation/>
       <Title/>
       <Options/>
     </div>
-    
     </div>
   )
 }   

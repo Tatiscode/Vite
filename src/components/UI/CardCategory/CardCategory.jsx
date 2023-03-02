@@ -5,16 +5,16 @@ function CardCategory() {
   return (
     <div className="container-cards-categorys">
         <div className="card-category">
-        <img src="" alt="" />
-        <TitleTwo textTitle="KYLE COSMETICS" style=""/>
+        <img className="img-category" src="https://res.cloudinary.com/dgpikgt5t/image/upload/v1677765935/category_smonhe.webp" alt="" />
+        <TitleTwo style="title-category" textTitle="KYLE COSMETICS"/>
         </div>
         <div className="card-category">
-        <img src="" alt="" />
-        <TitleTwo textTitle="KYLE SKIN" style=""/>
+        <img className="img-category" src="https://res.cloudinary.com/dgpikgt5t/image/upload/v1677765935/category_smonhe.webp" alt="" />
+        <TitleTwo style="title-category" textTitle="KYLE SKIN"/>
         </div>
         <div className="card-category">
-        <img src="" alt="" />
-        <TitleTwo textTitle="KYLE BABY" style=""/>
+        <img className="img-category" src="https://res.cloudinary.com/dgpikgt5t/image/upload/v1677765935/category_smonhe.webp" alt="" />
+        <TitleTwo style="title-category" textTitle="KYLE BABY"/>
         </div>
     </div>
   )
