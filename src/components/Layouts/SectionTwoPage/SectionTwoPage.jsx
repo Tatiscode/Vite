@@ -7,9 +7,15 @@ import './sectionTwoPage.css'
  export function SectionTwoPage() {
   return (
     <div className="container-section-two-page">
-        <TitleTwo textTitle="SOLD-OUT LIP TINT IS BACK" style=""/>
-        <Phrase textPharse="get yours before it?s gone again" style=""/>
-        <ButtonShop textButtonShop= 'shop now' style='btn-1'/>
+      <div className="img">
+        <img className="kyle-img" src="https://res.cloudinary.com/dgpikgt5t/image/upload/v1677849641/kylies-valentines-day-lookv2_740x545_crop_center_lk0hme.webp" alt="" />
+      </div>
+        <div className="two-box-section">
+        <TitleTwo textTitle="SOLD-OUT LIP TINT IS BACK " style="title-kyle"/>
+        <Phrase textPharse="get yours before it?s gone again" style="phrase-kyle"/>
+        <ButtonShop textButton = "shop now" style="btn-1" />
+        
+        </div>
     </div>
   )
 }

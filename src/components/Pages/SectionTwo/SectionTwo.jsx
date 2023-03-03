@@ -3,7 +3,9 @@ import { SectionTwoPage } from '../../Layouts/SectionTwoPage/SectionTwoPage'
 
 export function SectionTwo() {
   return (
-    <SectionTwoPage/>
+    <div className="container-card-kyle">
+      <SectionTwoPage/>
+    </div>
   )
 }
 

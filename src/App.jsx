@@ -20,11 +20,11 @@ export function App() {
      <ArticlePage/>
      <FooterPage/>
 
-     <Routes>
+     {/* <Routes>
      <Route path='/' element={<HomePage/>}/>
      <Route path='/BodyPageKyle' element={<BodyPage/>}/>
      <Route path='/*' element={<NotFound/>}/>
-     </Routes>
+     </Routes> */}
     </div>
   )
 }
