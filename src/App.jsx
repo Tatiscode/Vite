@@ -8,6 +8,7 @@ import AsideTwoPage from './components/Pages/AsideTwoPage/AsideTwoPage'
 import ArticlePage from './components/Pages/ArticlePage/ArticlePage'
 import FooterPage from './components/Pages/FooterPage/FooterPage'
 import { SectionTwo } from './components/Pages/SectionTwo/SectionTwo'
+import FormContatcUs from './components/Pages/FormContactUs/FormContatcUs'
 
 export function App() {
   return (
@@ -19,12 +20,13 @@ export function App() {
      <AsideTwoPage/>
      <ArticlePage/>
      <FooterPage/>
+     <FormContatcUs/>
 
-     {/* <Routes>
+     <Routes>
      <Route path='/' element={<HomePage/>}/>
-     <Route path='/BodyPageKyle' element={<BodyPage/>}/>
-     <Route path='/*' element={<NotFound/>}/>
-     </Routes> */}
+     <Route path='/ContactUs' element={<FormContatcUs/>}/>
+     <Route path='/Error*' element={<NotFound/>}/>
+     </Routes>
     </div>
   )
 }
