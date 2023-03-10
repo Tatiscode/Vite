@@ -1,14 +1,15 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const Options = () => {
   return (
     <nav className='container-options'>
         <ul>
-            <li><a href="">contact us</a></li>
-            <li><a href="">wishlist</a></li>
-            <li><a href="">account</a></li>
-            <li><a href="">search</a></li>
-            <li><a href="">cart</a></li>
+            <li><NavLink to="/ContactUs">contact us</NavLink></li>
+            <li><NavLink to="">wishlist</NavLink></li>
+            <li><NavLink to="">account</NavLink></li>
+            <li><NavLink to="">search</NavLink></li>
+            <li><NavLink to="">cart</NavLink></li> 
         </ul>
     </nav>
   )

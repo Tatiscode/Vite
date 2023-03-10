@@ -9,13 +9,12 @@ body{
 
 .container-section-two-page{
     display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
+    justify-content: center;
+    background-color: red;
     border-radius:20px;
-    width: 85%;
-    border-radius:20px;
+    width: 80%;
+
+ 
 }
 
 .img{
@@ -23,12 +22,6 @@ body{
 }
 .kyle-img{
     width: 100%;
-}
-
-.container-card-kyle{
-    display: flex;
-    justify-content:center;
-    margin-top: 40px;
 }
 
 .title-kyle{

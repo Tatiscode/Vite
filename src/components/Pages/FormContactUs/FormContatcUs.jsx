@@ -1,10 +1,10 @@
 import React, {useRef} from 'react'
 import './formContactUs.css'
-import emailjs from 'emailjs/browser'
+import emailjs from '@emailjs/browser'
 
-function FormContatcUs = () =>{
+ export const FormContactUs = () =>{
 
-    consy refForm = useRef();
+    const refForm = useRef();
     const handleSubmit = (event) => {
         event.preventDefault();
 
@@ -15,7 +15,7 @@ function FormContatcUs = () =>{
 
         emailjs.sendForm(serviceId, templadeId, refForm.current, apiKey)
         .then( result => console.log(result.text))
-        .cach( error => console.error(error))
+        .catch( error => console.error(error))
     }
 
   return (
@@ -43,4 +43,4 @@ function FormContatcUs = () =>{
   )
 }
 
-export default FormContatcUs
+export default FormContactUs

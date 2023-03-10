@@ -14,7 +14,6 @@ import './sectionTwoPage.css'
         <TitleTwo textTitle="SOLD-OUT LIP TINT IS BACK " style="title-kyle"/>
         <Phrase textPharse="get yours before it?s gone again" style="phrase-kyle"/>
         <ButtonShop textButton = "shop now" style="btn-1" />
-        
         </div>
     </div>
   )
